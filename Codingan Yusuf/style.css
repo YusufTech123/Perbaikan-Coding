@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Image/BACKGROUND.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backgroundColor {
+    background-color: rgba(240, 248, 255, 0.61);
+    height: 2500px;
+}
+
+.classUntukNavbar {
+    background-color: rgba(22, 163, 173, 0.801);
+    padding: 1px 10px 70px 10px;
+}
+
+.classUntukNavbar > .unOrderList1 > .listPertama > .gambarPertama {
+    width: 120px;
+    float: left;
+}
+
+.classUntukNavbar > .unOrderList1 > .listPertama, .listKedua, .listKetiga, .listKeempat, .listKelima, .listKeenam {
+    list-style: none;
+}
+
+.classUntukNavbar > .unOrderList1 > li > .linkPertama, .linkKedua, .linkKetiga, .linkKeempat, .linkKelima, .linkKeenam {
+    text-decoration: none;
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 50px;
+    transition: 0.2s;
+}
+
+.linkPertama:hover {
+    background-color: rgba(10, 75, 78, 0.562);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.linkKedua:hover {
+    background-color: rgba(10, 75, 78, 0.562);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.linkKetiga:hover {
+    background-color: rgba(10, 75, 78, 0.562);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.linkKeempat:hover {
+    background-color: rgba(10, 75, 78, 0.562);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.linkKelima:hover {
+    background-color: rgba(10, 75, 78, 0.562);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.lingkaranGambarRtc {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contentUtamaAtas > .lingkaranGambarRtc > .gambarKedua {
+    width: 250px;
+}
+
+.contentBawahLogoRtc {
+    text-align: center;
+}
+
+.contentBawahLogoRtc > .tombolHiasanDoang {
+    background-color: rgba(240, 248, 255, 0.377);
+    border: 2px solid rgb(0, 81, 134);
+    border-radius: 10px;
+    width: 600px;
+    color: rgb(0, 81, 134);
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.3s;
+}
+
+.contentBawahLogoRtc > .tombolHiasanDoang:hover {
+    background-color: rgb(0, 81, 134);
+    color: rgba(255, 255, 255, 0.781);
+    cursor: pointer;
+}
+
+.contentKotakPutihDiBawah {
+    background-color: rgba(255, 255, 255, 0.603);
+    margin: 250px auto;
+    width: 95%;
+    border-radius: 10px;
+    padding-bottom: 200px;
+}
+
+.contentKotakPutihDiBawah > .tulisanTentangRtc > .judulRtc {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contentKotakPutihDiBawah > .tulisanTentangRtc > .isianTulisanTentang {
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.contentGambarVisualWebsite {
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.contentGambarDivisiJaringan {
+    width: 350px;
+    background-color: rgba(141, 179, 201, 0.76);
+    margin-right: 2%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    transition: 0.2s;
+}
+
+.contentGambarDivisiPemrograman {
+    width: 350px;
+    background-color: rgba(141, 179, 201, 0.76);
+    margin-right: 13%;
+    margin-left: 20%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.contentGambarDivisiMultimedia {
+    width: 350px;
+    background-color: rgba(141, 179, 201, 0.76);
+    margin-left: 10%;
+    margin-right: 2%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.contentGambarDivisiJaringan:hover {
+    box-shadow: 10px 10px 10px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.contentGambarDivisiMultimedia:hover {
+    box-shadow: 10px 10px 10px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.contentGambarDivisiPemrograman:hover {
+    box-shadow: 10px 10px 10px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.contentGambarDivisiJaringan > .gambarDivisiSatu {
+    width: 350px;
+}
+
+.contentGambarDivisiPemrograman > .gambarDivisiDua {
+    width: 350px;
+}
+
+.contentGambarDivisiMultimedia > .gambarDivisiTiga {
+    width: 350px;
+}
+
+.contentJudulKeDua > .judulContentKeDua {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.judulDivisi {
+    text-align: center;
+}
+
+.tulisanGambarPertama {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tulisanGambarKedua {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tulisanGambarKetiga {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bagianFooterWebsite {
+    background-color: rgb(59, 59, 59);
+    padding: 40px 200px 350px 50px;
+    color: rgb(223, 223, 223);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bagianKiriFooter {
+    float: left;
+}
+
+.bagianKananFooter {
+    float: right;
+}
+
+.inputNama, .inputEmail {
+    width: 350px;
+    height: 25px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: inset 1px 3px 4px rgb(32, 32, 32);
+}
+
+.pesanUser {
+    width: 350px;
+    background-color: rgb(230, 230, 230);  
+    box-shadow: inset 1px 3px 4px rgb(32, 32, 32);
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.submitButton {
+    background-color: rgb(30, 129, 221);
+    border: none;
+    width: 150px;
+    color: rgb(223, 223, 223);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.submitButton:hover {
+    background-color: rgb(16, 69, 90);
+    width: 145px;
+    cursor: pointer;
+}
+
+.inputNama::placeholder {
+    padding-left: 5px;
+    color: black
+}
+
+.inputEmail::placeholder {
+    padding-left: 5px;
+    color: black
+}
+
+.pesanUser::placeholder {
+    padding-left: 5px;
+    color: black
+}
+
+@media screen and (max-width: 1200px) {
+
+    .classUntukNavbar {
+        background-color: rgba(22, 163, 173, 0.801);
+        padding: 1px 10px 70px 10px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > li > .linkPertama, .linkKedua, .linkKetiga, .linkKeempat, .linkKelima, .linkKeenam {
+        margin-right: 30px;
+        font-size: 18px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > .listPertama > .gambarPertama {
+        width: 120px;
+        float: left;
+    }
+
+    .contentUtamaAtas > .lingkaranGambarRtc > .gambarKedua {
+        width: 250px;
+    }
+
+    .contentBawahLogoRtc > .tombolHiasanDoang {
+        background-color: rgba(240, 248, 255, 0.377);
+        border: 2px solid rgb(0, 81, 134);
+        border-radius: 10px;
+        width: 500px;
+        color: rgb(0, 81, 134);
+        font-size: 20px;
+        margin-top: 50px;
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .classUntukNavbar {
+        background-color: rgba(22, 163, 173, 0.801);
+        padding: 1px 10px 60px 10px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > li > .linkPertama, .linkKedua, .linkKetiga, .linkKeempat, .linkKelima, .linkKeenam {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > .listPertama > .gambarPertama {
+        width: 100px;
+        float: left;
+    }
+
+    .contentUtamaAtas > .lingkaranGambarRtc > .gambarKedua {
+        width: 200px;
+    }
+
+    .contentBawahLogoRtc > .tombolHiasanDoang {
+        background-color: rgba(240, 248, 255, 0.377);
+        border: 2px solid rgb(0, 81, 134);
+        border-radius: 10px;
+        width: 400px;
+        color: rgb(0, 81, 134);
+        font-size: 15px;
+        margin-top: 50px;
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .classUntukNavbar {
+        background-color: rgba(22, 163, 173, 0.801);
+        padding: 1px 10px 50px 10px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > li > .linkPertama, .linkKedua, .linkKetiga, .linkKeempat, .linkKelima, .linkKeenam {
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .classUntukNavbar > .unOrderList1 > .listPertama > .gambarPertama {
+        width: 80px;
+        float: left;
+    }
+
+    .contentUtamaAtas > .lingkaranGambarRtc > .gambarKedua {
+        width: 150px;
+    }
+
+    .contentBawahLogoRtc > .tombolHiasanDoang {
+        background-color: rgba(240, 248, 255, 0.377);
+        border: 2px solid rgb(0, 81, 134);
+        border-radius: 10px;
+        width: 400px;
+        color: rgb(0, 81, 134);
+        font-size: 15px;
+        margin-top: 50px;
+        padding: 10px 10px 10px 10px;
+    }
+
+}
